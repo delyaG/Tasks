@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="387a0dd8-2a99-40d3-a339-ab0a23c28fe1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V3qS6y3I8viKhmi4JDKxMG2d0B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyContext" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\garie\Desktop\JavaLab\Context\src\main\java\ru\itis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itis.Main" />
+      <module name="Context" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="387a0dd8-2a99-40d3-a339-ab0a23c28fe1" name="Default Changelist" comment="" />
+      <created>1576492122067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576492122067</updated>
+      <workItem from="1576492125553" duration="15894000" />
+      <workItem from="1576565207545" duration="13883000" />
+      <workItem from="1576697300883" duration="9054000" />
+      <workItem from="1576865950996" duration="66000" />
+      <workItem from="1576866102978" duration="1261000" />
+      <workItem from="1576869391301" duration="23000" />
+      <workItem from="1576872631165" duration="4002000" />
+      <workItem from="1576882497990" duration="2202000" />
+      <workItem from="1576957964463" duration="593000" />
+      <workItem from="1577211884186" duration="161000" />
+      <workItem from="1577447981664" duration="383000" />
+      <workItem from="1578331405255" duration="23641000" />
+      <workItem from="1578516335495" duration="1336000" />
+      <workItem from="1578565617861" duration="601000" />
+      <workItem from="1579863416260" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1576492220452">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1576492220452" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1576496044122">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1576496044122" />
+    <state x="340" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576704843566">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="340" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1576704843566" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1576704920793">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1576704920793" />
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom" timestamp="1576840267893">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576840267893" />
+    <state width="1237" height="189" key="GridCell.Tab.0.center" timestamp="1576840267893">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="189" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1576840267893" />
+    <state width="1237" height="189" key="GridCell.Tab.0.left" timestamp="1576840267893">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="189" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1576840267893" />
+    <state width="1237" height="189" key="GridCell.Tab.0.right" timestamp="1576840267893">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="189" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1576840267893" />
+    <state width="1237" height="336" key="GridCell.Tab.1.bottom" timestamp="1576840267891">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="336" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576840267891" />
+    <state width="1237" height="336" key="GridCell.Tab.1.center" timestamp="1576840267891">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="336" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1576840267891" />
+    <state width="1237" height="336" key="GridCell.Tab.1.left" timestamp="1576840267891">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="336" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1576840267891" />
+    <state width="1237" height="336" key="GridCell.Tab.1.right" timestamp="1576840267891">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="336" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1576840267891" />
+  </component>
+</project>
