@@ -21,31 +21,22 @@ public class UserRepositoryImpl implements UserRepository, Component {
 
     @Override
     public void save(User model) {
-        Connection connection = null;
-        PreparedStatement statement = null;
-        try {
-            connection = CONNECTION_CONFIG.getConnection();
-            statement = connection.prepareStatement(SAVE);
+        try (Connection connection = CONNECTION_CONFIG.getConnection();
+             PreparedStatement statement = connection.prepareStatement(SAVE)) {
             statement.setString(1, model.getLogin());
             statement.setString(2, model.getPassword());
             statement.setString(3, model.getRole().toString());
             statement.executeUpdate();
         } catch (SQLException e) {
             throw new IllegalStateException(e);
-        } finally {
-            CONNECTION_CONFIG.close(statement);
-            CONNECTION_CONFIG.close(connection);
         }
     }
 
     @Override
     public Optional<User> findById(Long aLong) {
-        Connection connection = null;
-        PreparedStatement statement = null;
         User user = null;
-        try {
-            connection = CONNECTION_CONFIG.getConnection();
-            statement = connection.prepareStatement(FIND_BY_ID);
+        try (Connection connection = CONNECTION_CONFIG.getConnection();
+             PreparedStatement statement = connection.prepareStatement(FIND_BY_ID)) {
             statement.setLong(1, aLong);
             ResultSet set = statement.executeQuery();
             if (set.next()) {
@@ -55,9 +46,6 @@ public class UserRepositoryImpl implements UserRepository, Component {
             return Optional.ofNullable(user);
         } catch (SQLException e) {
             throw new IllegalStateException(e);
-        } finally {
-            CONNECTION_CONFIG.close(statement);
-            CONNECTION_CONFIG.close(connection);
         }
     }
 
@@ -68,12 +56,9 @@ public class UserRepositoryImpl implements UserRepository, Component {
 
     @Override
     public Optional<User> findByLoginAndPassword(String login, String password) {
-        Connection connection = null;
-        PreparedStatement statement = null;
         User user = null;
-        try {
-            connection = CONNECTION_CONFIG.getConnection();
-            statement = connection.prepareStatement(FIND_BY_LOGIN_AND_PASSWORD);
+        try (Connection connection = CONNECTION_CONFIG.getConnection();
+             PreparedStatement statement = connection.prepareStatement(FIND_BY_LOGIN_AND_PASSWORD)) {
             statement.setString(1, login);
             statement.setString(2, password);
             ResultSet set = statement.executeQuery();
@@ -86,9 +71,6 @@ public class UserRepositoryImpl implements UserRepository, Component {
             return Optional.ofNullable(user);
         } catch (SQLException e) {
             throw new IllegalStateException(e);
-        } finally {
-            CONNECTION_CONFIG.close(statement);
-            CONNECTION_CONFIG.close(connection);
         }
     }
 }
