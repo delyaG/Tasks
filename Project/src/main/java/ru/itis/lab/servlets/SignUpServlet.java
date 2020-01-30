@@ -26,7 +26,6 @@ public class SignUpServlet extends HttpServlet {
 //        this.service = applicationContext.getComponent(SignUpService.class, "signUpServiceImpl");
         MyContext context = (MyReflectionContext) rawAttribute;
         this.service = context.getComponent(SignUpServiceImpl.class.getName());
-        System.out.println();
     }
 
     @Override

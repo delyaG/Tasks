@@ -18,8 +18,7 @@ public class ConnectionConfig {
     public ConnectionConfig() {
         Properties properties = new Properties();
         try {
-//            properties.load(new FileReader("./src/main/resources/db.properties"));
-            properties.load(new FileReader("C:\\Users\\garie\\Desktop\\JavaLab\\Project\\src\\main\\resources\\db.properties"));
+            properties.load(new FileReader("db.properties"));
         } catch (IOException e) {
             throw new IllegalStateException(e);
         }
@@ -43,16 +42,5 @@ public class ConnectionConfig {
             instance = new ConnectionConfig();
         }
         return instance;
-    }
-
-    public void close(AutoCloseable statement) {
-        if (statement != null) {
-            try {
-                statement.close();
-            }
-            catch (Exception e) {
-                throw  new RuntimeException(e);
-            }
-        }
     }
 }

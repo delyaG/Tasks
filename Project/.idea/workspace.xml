@@ -6,7 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bd795a-1b75-468f-bb0f-5db17bfc8e62" name="Default Changelist" comment="" />
+    <list default="true" id="d9bd795a-1b75-468f-bb0f-5db17bfc8e62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Context/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Context/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2b89446-1d3e-4bb3-a98c-31794377f09b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d2b89446-1d3e-4bb3-a98c-31794377f09b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/lab/config/ConnectionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/lab/config/ConnectionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/lab/listeners/ApplicationContextServletListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/lab/listeners/ApplicationContextServletListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/lab/repositories/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/lab/repositories/CrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/lab/repositories/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/lab/repositories/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/lab/repositories/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/lab/repositories/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/lab/servlets/SignUpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/lab/servlets/SignUpServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/lab/config/ConnectionConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/lab/config/ConnectionConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/lab/repositories/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/lab/repositories/ProductRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/lab/repositories/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/lab/repositories/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/lab/servlets/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ru/itis/lab/servlets/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itis/lab/config/ConnectionConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itis/lab/config/ConnectionConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itis/lab/repositories/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itis/lab/repositories/ProductRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itis/lab/repositories/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itis/lab/repositories/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itis/lab/servlets/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itis/lab/servlets/LogoutServlet.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +105,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -92,13 +116,18 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1VTBGtb9RW3njpBu012Ti5wbFE4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyContext" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -307,11 +336,26 @@
       <workItem from="1578549509740" duration="1416000" />
       <workItem from="1578564661343" duration="1579000" />
       <workItem from="1579863224980" duration="189000" />
+      <workItem from="1580411403577" duration="3789000" />
+      <workItem from="1580415314776" duration="87000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -325,11 +369,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/itis/lab/services/SignUpServiceImpl.java</url>
           <line>17</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/itis/lab/servlets/SignUpServlet.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

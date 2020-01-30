@@ -34,8 +34,8 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>919</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|24788|24790|1
-sequence|table|24799|24801|1
+      <Relations>sequence|table|24799|24801|1
+sequence|table|24788|24790|1
 </Relations>
     </database>
     <database id="9" parent="1" name="User">

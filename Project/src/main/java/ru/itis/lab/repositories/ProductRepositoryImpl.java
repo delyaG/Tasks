@@ -20,19 +20,13 @@ public class ProductRepositoryImpl implements ProductRepository, Component {
 
     @Override
     public void save(Product model) {
-        Connection connection = null;
-        PreparedStatement statement = null;
-        try {
-            connection = CONNECTION_CONFIG.getConnection();
-            statement = connection.prepareStatement(SAVE);
+        try (Connection connection = CONNECTION_CONFIG.getConnection();
+            PreparedStatement statement = connection.prepareStatement(SAVE);) {
             statement.setString(1, model.getName());
             statement.setInt(2, model.getPrice());
             statement.executeUpdate();
         } catch (SQLException e) {
             throw new IllegalStateException(e);
-        } finally {
-            CONNECTION_CONFIG.close(statement);
-            CONNECTION_CONFIG.close(connection);
         }
     }
 
@@ -43,12 +37,9 @@ public class ProductRepositoryImpl implements ProductRepository, Component {
 
     @Override
     public List<Product> findAll() {
-        Connection connection = null;
-        PreparedStatement statement = null;
         List<Product> productList = new LinkedList<>();
-        try {
-            connection = CONNECTION_CONFIG.getConnection();
-            statement = connection.prepareStatement(FIND_ALL);
+        try (Connection connection = CONNECTION_CONFIG.getConnection();
+             PreparedStatement statement = connection.prepareStatement(FIND_ALL)) {
             ResultSet set = statement.executeQuery();
             while (set.next()) {
                 productList.add(new Product().builder()
@@ -59,10 +50,6 @@ public class ProductRepositoryImpl implements ProductRepository, Component {
         return productList;
         } catch (SQLException e) {
              throw new IllegalStateException(e);
-        } finally {
-            CONNECTION_CONFIG.close(statement);
-            CONNECTION_CONFIG.close(connection);
         }
     }
-
 }

@@ -15,11 +15,8 @@ public class ApplicationContextServletListener implements ServletContextListener
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         MyContext context = new MyReflectionContext("ru.itis.lab");
-//        context.getComponent(ApplicationContextServletListener.class.getName());
-        System.out.println();
         ServletContext servletContext = sce.getServletContext();
         servletContext.setAttribute("context", context);
-        System.out.println();
     }
 
     @Override
